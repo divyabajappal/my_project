@@ -1,8 +1,8 @@
 #include<stdio.h>
-int add()
+int add(float a,float b)
 {
 	int r;
-	r=2+3;
+	r=a+b;
 	return r;
 }
 int cos(){
@@ -15,6 +15,6 @@ int main()
 {
 	int res;
 	cos();
-	res=add();
+	res=add(3,3);
 	printf("%d\n",res);
 }
