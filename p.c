@@ -6,7 +6,7 @@ int add(float a,float b)
 	return r;
 }
 int cos(){
-	printf("cos function\n");
+	printf("cos function\n"); //this
 }
 int sin(){
 	printf("sin function\n");
